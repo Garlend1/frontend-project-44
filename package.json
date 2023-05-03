@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/Garlend1/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Garlend1/frontend-project-44/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Garlend1/frontend-project-44.git"
+  },
+  "keywords": [
+    "project"
+  ],
+  "author": "Garlend1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Garlend1/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/Garlend1/frontend-project-44#readme"
+}
