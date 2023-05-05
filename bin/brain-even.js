@@ -19,9 +19,10 @@ const startRound = () => {
     if (answer === correctAnswer) {
       console.log('Correct!');
     } else {
-      return console.log(`${answer} is wrong answer ;(. Correct answer was ${correctAnswer}.\nLet's try again, ${playerName}!`);
+      console.log(`${answer} is wrong answer ;(. Correct answer was ${correctAnswer}.\nLet's try again, ${playerName}!`);
+      return;
     }
   }
   console.log(`Congratulations, ${playerName}!`);
 };
-console.log(startRound());
+startRound();
