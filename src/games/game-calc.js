@@ -22,12 +22,13 @@ const gameRound = () => {
     default:
       correctAnswer = null;
   }
+  correctAnswer = correctAnswer.toString();
   return [question, correctAnswer];
 };
 
-const gameCalc = () => {
+const brainCalc = () => {
   const gameObjective = 'What is the result of the expression?';
   brainGame(gameObjective, gameRound);
 };
 
-export default gameCalc;
+export default brainCalc;
