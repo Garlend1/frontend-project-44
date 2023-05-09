@@ -18,7 +18,7 @@ const gameRound = () => {
   const secondNumber = getRandomNumber(9);
   const question = `${firstNumber} ${secondNumber}`;
 
-  const correctAnswer = getDivisor(firstNumber, secondNumber).toString();
+  const correctAnswer = String(getDivisor(firstNumber, secondNumber));
   return [question, correctAnswer];
 };
 

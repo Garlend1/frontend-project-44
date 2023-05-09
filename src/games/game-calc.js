@@ -22,7 +22,7 @@ const gameRound = () => {
     default:
       correctAnswer = null;
   }
-  correctAnswer = correctAnswer.toString();
+  correctAnswer = String(correctAnswer);
   return [question, correctAnswer];
 };
 
