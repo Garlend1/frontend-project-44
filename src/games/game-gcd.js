@@ -13,7 +13,6 @@ const getDivisor = (firstNum, secondNum) => {
   }
   return a + b;
 };
-
 const gameRound = () => {
   const firstNumber = getRandomNumber(9);
   const secondNumber = getRandomNumber(9);
