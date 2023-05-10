@@ -3,10 +3,13 @@
 <a href="https://codeclimate.com/github/Garlend1/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/482152b02c7414953f42/maintainability" /></a>
 
 <h3>Brain-even </h3>
-<a href="https://asciinema.org/a/NWfWIvj5fhBxNshzV3VDK391H" target="_blank"><img src="https://asciinema.org/a/NWfWIvj5fhBxNshzV3VDK391H.svg" /></a>
+[![asciicast](https://asciinema.org/a/NWfWIvj5fhBxNshzV3VDK391H.svg)](https://asciinema.org/a/NWfWIvj5fhBxNshzV3VDK391H)
 
 <h3>Brain-calc</h3>
-<a href="https://asciinema.org/a/71l7TrCGpMoq8mlvXR9R7mutf" target="_blank"><img src="https://asciinema.org/a/71l7TrCGpMoq8mlvXR9R7mutf.svg" /></a>
+[![asciicast](https://asciinema.org/a/71l7TrCGpMoq8mlvXR9R7mutf.svg)](https://asciinema.org/a/71l7TrCGpMoq8mlvXR9R7mutf)
 
 <h3>Brain-GCD</h3>
-<a href="https://asciinema.org/a/SI5Gt6o6SygxEjb5mb4n2qCQT" target="_blank"><img src="https://asciinema.org/a/SI5Gt6o6SygxEjb5mb4n2qCQT.svg" /></a>
+[![asciicast](https://asciinema.org/a/SI5Gt6o6SygxEjb5mb4n2qCQT.svg)](https://asciinema.org/a/SI5Gt6o6SygxEjb5mb4n2qCQT)
+
+<h3>Brain-progression</h3>
+[![asciicast](https://asciinema.org/a/EYb6t8TsAtjxKojo0HyLm41rU.svg)](https://asciinema.org/a/EYb6t8TsAtjxKojo0HyLm41rU)
