@@ -1,6 +1,8 @@
 import { getRandomInRange } from '../utils.js';
 import playBrainGame from '../index.js';
 
+const gameObjective = 'What is the result of the expression?';
+
 const gameRound = () => {
   const operators = ['+', '-', '*'];
   const randomOperator = operators[getRandomInRange(0, 2)];
@@ -28,7 +30,6 @@ const gameRound = () => {
 };
 
 const playBrainCalc = () => {
-  const gameObjective = 'What is the result of the expression?';
   playBrainGame(gameObjective, gameRound);
 };
 

@@ -1,6 +1,8 @@
 import { getRandomInRange } from '../utils.js';
 import playBrainGame from '../index.js';
 
+const gameObjective = 'Find the greatest common divisor of given numbers.';
+
 const getDivisor = (firstNum, secondNum) => {
   let a = firstNum;
   let b = secondNum;
@@ -23,7 +25,6 @@ const gameRound = () => {
 };
 
 const playBrainGcd = () => {
-  const gameObjective = 'Find the greatest common divisor of given numbers.';
   playBrainGame(gameObjective, gameRound);
 };
 

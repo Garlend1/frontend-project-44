@@ -1,6 +1,8 @@
 import { getRandomInRange } from '../utils.js';
 import playBrainGame from '../index.js';
 
+const gameObjective = 'What number is missing in the progression?';
+
 const getProgression = (start, step, length) => {
   const progression = [];
   for (let i = 0; i < length; i += 1) {
@@ -23,7 +25,6 @@ const gameRound = () => {
 };
 
 const playBrainProgression = () => {
-  const gameObjective = 'What number is missing in the progression?';
   playBrainGame(gameObjective, gameRound);
 };
 

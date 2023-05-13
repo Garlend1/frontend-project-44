@@ -1,6 +1,8 @@
 import { getRandomInRange } from '../utils.js';
 import playBrainGame from '../index.js';
 
+const gameObjective = 'Answer "yes" if the number is even, otherwise answer "no"';
+
 const isEven = (number) => number % 2 === 0;
 
 const gameRound = () => {
@@ -11,7 +13,6 @@ const gameRound = () => {
 };
 
 const playBrainEven = () => {
-  const gameObjective = 'Answer "yes" if the number is even, otherwise answer "no"';
   playBrainGame(gameObjective, gameRound);
 };
 
