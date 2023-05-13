@@ -38,6 +38,7 @@ brain-calc
 ```
 #### Пример игры
 
+[![asciicast](https://asciinema.org/a/sZRDIivCbEq6zThCSfcbTgG1r.svg)](https://asciinema.org/a/sZRDIivCbEq6zThCSfcbTgG1r)
 
 ## Игра "Прогрессия" 
 > Поиск пропущенных чисел в последовательности чисел.
