@@ -26,7 +26,7 @@ brain-even
 ```
 #### Пример игры
 
-[![asciicast](https://asciinema.org/a/NWfWIvj5fhBxNshzV3VDK391H.svg)](https://asciinema.org/a/NWfWIvj5fhBxNshzV3VDK391H)
+[![asciicast](https://asciinema.org/a/buP2SlT1NkV2yik48lTLK9t1M.svg)](https://asciinema.org/a/buP2SlT1NkV2yik48lTLK9t1M)
 
 
 ## Игра "Калькулятор"
@@ -48,7 +48,7 @@ brain-progression
 ```
 #### Пример игры
 
-
+[![asciicast](https://asciinema.org/a/Np1z1BMVjoXqYhHkQ66Mbh4Tj.svg)](https://asciinema.org/a/Np1z1BMVjoXqYhHkQ66Mbh4Tj)
 
 ## Игра "Определение наибольшего общего делителя" 
 > Необходимо определить наибольший общий делитель двух чисел.
@@ -59,7 +59,7 @@ brain-gcd
 ```
 #### Пример игры
 
-
+[![asciicast](https://asciinema.org/a/ChkdbhfqNcihtrWI0H4FIbpd8.svg)](https://asciinema.org/a/ChkdbhfqNcihtrWI0H4FIbpd8)
 
 ## Игра "Определение простого числа" 
 > Необходимо определить является ли отображаемое число простым
@@ -70,3 +70,4 @@ brain-prime
 ```
 #### Пример игры
 
+[![asciicast](https://asciinema.org/a/RDUUdISmpReo28850jhRLn9BO.svg)](https://asciinema.org/a/RDUUdISmpReo28850jhRLn9BO)
