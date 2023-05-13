@@ -1,7 +1,4 @@
-export const getRandomNumber = (number) => {
-  const randomNumber = Math.round(Math.random() * number);
-  return randomNumber;
-};
+export const getRandomNumber = () => Math.round(Math.random());
 
 export const getRandomInRange = (min, max) => {
   min = Math.ceil(min);

@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../utils.js';
+import { getRandomInRange } from '../utils.js';
 import playBrainGame from '../index.js';
 
 const getProgression = (start, step, length) => {
@@ -10,11 +10,11 @@ const getProgression = (start, step, length) => {
 };
 
 const gameRound = () => {
-  const start = getRandomNumber(10);
+  const start = getRandomInRange(0, 20);
   const step = 2;
   const length = 10;
   const progression = getProgression(start, step, length);
-  const hiddenNumberIndex = getRandomNumber(progression.length - 1);
+  const hiddenNumberIndex = getRandomInRange(0, progression.length - 1);
   const correctAnswer = String(progression[hiddenNumberIndex]);
   progression[hiddenNumberIndex] = '..';
   const question = progression.join(' ');

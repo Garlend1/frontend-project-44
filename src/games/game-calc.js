@@ -1,11 +1,11 @@
-import { getRandomNumber } from '../utils.js';
+import { getRandomInRange } from '../utils.js';
 import playBrainGame from '../index.js';
 
 const gameRound = () => {
   const operators = ['+', '-', '*'];
-  const randomOperator = operators[getRandomNumber(2)];
-  const num1 = getRandomNumber(10);
-  const num2 = getRandomNumber(10);
+  const randomOperator = operators[getRandomInRange(0, 2)];
+  const num1 = getRandomInRange(0, 10);
+  const num2 = getRandomInRange(0, 10);
   const question = `${num1} ${randomOperator} ${num2}`;
 
   let correctAnswer = 0;

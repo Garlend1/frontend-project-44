@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../utils.js';
+import { getRandomInRange } from '../utils.js';
 import playBrainGame from '../index.js';
 
 const getDivisor = (firstNum, secondNum) => {
@@ -14,8 +14,8 @@ const getDivisor = (firstNum, secondNum) => {
   return a + b;
 };
 const gameRound = () => {
-  const firstNumber = getRandomNumber(9);
-  const secondNumber = getRandomNumber(9);
+  const firstNumber = getRandomInRange(0, 9);
+  const secondNumber = getRandomInRange(0, 9);
   const question = `${firstNumber} ${secondNumber}`;
 
   const correctAnswer = String(getDivisor(firstNumber, secondNumber));

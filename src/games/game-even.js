@@ -1,10 +1,10 @@
-import { getRandomNumber } from '../utils.js';
+import { getRandomInRange } from '../utils.js';
 import playBrainGame from '../index.js';
 
 const isEven = (number) => number % 2 === 0;
 
 const gameRound = () => {
-  const randomNumber = getRandomNumber(50);
+  const randomNumber = getRandomInRange(0, 50);
   const question = randomNumber;
   const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
   return [question, correctAnswer];

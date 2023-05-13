@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../utils.js';
+import { getRandomInRange } from '../utils.js';
 import playBrainGame from '../index.js';
 
 const isPrime = (number) => {
@@ -11,7 +11,7 @@ const isPrime = (number) => {
 };
 
 const gameRound = () => {
-  const randomNumber = getRandomNumber(50);
+  const randomNumber = getRandomInRange(10, 50);
   const question = randomNumber;
   const correctAnswer = String(isPrime(randomNumber) ? 'yes' : 'no');
   return [question, correctAnswer];
