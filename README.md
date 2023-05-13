@@ -37,7 +37,7 @@ brain-even
 brain-calc
 ```
 #### Пример игры
-<a href="https://asciinema.org/a/71l7TrCGpMoq8mlvXR9R7mutf" target="_blank"><img src="https://asciinema.org/a/71l7TrCGpMoq8mlvXR9R7mutf.svg" /></a>
+
 
 ## Игра "Прогрессия" 
 > Поиск пропущенных чисел в последовательности чисел.
@@ -48,7 +48,7 @@ brain-progression
 ```
 #### Пример игры
 
-<a href="https://asciinema.org/a/EYb6t8TsAtjxKojo0HyLm41rU" target="_blank"><img src="https://asciinema.org/a/EYb6t8TsAtjxKojo0HyLm41rU.svg" /></a>
+
 
 ## Игра "Определение наибольшего общего делителя" 
 > Необходимо определить наибольший общий делитель двух чисел.
@@ -59,7 +59,7 @@ brain-gcd
 ```
 #### Пример игры
 
-<a href="https://asciinema.org/a/SI5Gt6o6SygxEjb5mb4n2qCQT" target="_blank"><img src="https://asciinema.org/a/SI5Gt6o6SygxEjb5mb4n2qCQT.svg" /></a>
+
 
 ## Игра "Определение простого числа" 
 > Необходимо определить является ли отображаемое число простым
@@ -70,4 +70,3 @@ brain-prime
 ```
 #### Пример игры
 
-<a href="https://asciinema.org/a/f2CKZoGgr4z57Hz5wQnCBNVxH" target="_blank"><img src="https://asciinema.org/a/f2CKZoGgr4z57Hz5wQnCBNVxH.svg" /></a>
