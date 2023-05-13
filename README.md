@@ -26,7 +26,7 @@ brain-even
 ```
 #### Пример игры
 
-<a href="https://asciinema.org/a/NWfWIvj5fhBxNshzV3VDK391H" target="_blank"><img src="https://asciinema.org/a/NWfWIvj5fhBxNshzV3VDK391H.svg" /></a>
+[![asciicast](https://asciinema.org/a/NWfWIvj5fhBxNshzV3VDK391H.svg)](https://asciinema.org/a/NWfWIvj5fhBxNshzV3VDK391H)
 
 
 ## Игра "Калькулятор"
