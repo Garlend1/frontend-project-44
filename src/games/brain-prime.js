@@ -1,5 +1,5 @@
-import getRandomNumber from '../getRandomNumber.js';
-import brainGame from '../index.js';
+import { getRandomNumber } from '../utils.js';
+import playBrainGame from '../index.js';
 
 const isPrime = (number) => {
   for (let a = 2; a < number; a += 1) {
@@ -17,9 +17,9 @@ const gameRound = () => {
   return [question, correctAnswer];
 };
 
-const brainPrime = () => {
+const playBrainPrime = () => {
   const gameObjective = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-  brainGame(gameObjective, gameRound);
+  playBrainGame(gameObjective, gameRound);
 };
 
-export default brainPrime;
+export default playBrainPrime;

@@ -1,5 +1,5 @@
-import getRandomNumber from '../getRandomNumber.js';
-import brainGame from '../index.js';
+import { getRandomNumber } from '../utils.js';
+import playBrainGame from '../index.js';
 
 const gameRound = () => {
   const operators = ['+', '-', '*'];
@@ -26,9 +26,9 @@ const gameRound = () => {
   return [question, correctAnswer];
 };
 
-const brainCalc = () => {
+const playBrainCalc = () => {
   const gameObjective = 'What is the result of the expression?';
-  brainGame(gameObjective, gameRound);
+  playBrainGame(gameObjective, gameRound);
 };
 
-export default brainCalc;
+export default playBrainCalc;

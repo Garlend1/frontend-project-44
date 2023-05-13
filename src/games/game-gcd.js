@@ -1,5 +1,5 @@
-import getRandomNumber from '../getRandomNumber.js';
-import brainGame from '../index.js';
+import { getRandomNumber } from '../utils.js';
+import playBrainGame from '../index.js';
 
 const getDivisor = (firstNum, secondNum) => {
   let a = firstNum;
@@ -22,9 +22,9 @@ const gameRound = () => {
   return [question, correctAnswer];
 };
 
-const brainGcd = () => {
+const playBrainGcd = () => {
   const gameObjective = 'Find the greatest common divisor of given numbers.';
-  brainGame(gameObjective, gameRound);
+  playBrainGame(gameObjective, gameRound);
 };
 
-export default brainGcd;
+export default playBrainGcd;

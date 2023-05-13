@@ -1,6 +1,7 @@
-import getRandomNumber from '../getRandomNumber.js';
-import isEven from '../isEven.js';
-import brainGame from '../index.js';
+import { getRandomNumber } from '../utils.js';
+import playBrainGame from '../index.js';
+
+const isEven = (number) => number % 2 === 0;
 
 const gameRound = () => {
   const randomNumber = getRandomNumber(50);
@@ -9,9 +10,9 @@ const gameRound = () => {
   return [question, correctAnswer];
 };
 
-const brainEven = () => {
+const playBrainEven = () => {
   const gameObjective = 'Answer "yes" if the number is even, otherwise answer "no"';
-  brainGame(gameObjective, gameRound);
+  playBrainGame(gameObjective, gameRound);
 };
 
-export default brainEven;
+export default playBrainEven;
