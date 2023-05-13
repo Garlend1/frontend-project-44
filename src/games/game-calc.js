@@ -20,8 +20,9 @@ const gameRound = () => {
       correctAnswer = num1 * num2;
       break;
     default:
-      correctAnswer = null;
+      throw new Error(`Operator ${randomOperator} - is incorrect!`);
   }
+
   correctAnswer = String(correctAnswer);
   return [question, correctAnswer];
 };
