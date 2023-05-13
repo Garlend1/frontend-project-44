@@ -10,7 +10,7 @@
     "brain-prime": "bin/brain-prime.js"
   },
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Garlend1/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Garlend1/frontend-project-44/actions)",
+  "description": "[![Actions Status](https://github.com/Garlend1/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Garlend1/frontend-project-44/actions) «Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
