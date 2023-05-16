@@ -1,4 +1,4 @@
-import { getRandomInRange } from '../utils.js';
+import getRandomNumber from '../utils.js';
 import playBrainGame from '../index.js';
 
 const gameObjective = 'Find the greatest common divisor of given numbers.';
@@ -16,8 +16,8 @@ const getDivisor = (firstNum, secondNum) => {
   return a + b;
 };
 const gameRound = () => {
-  const firstNumber = getRandomInRange(0, 9);
-  const secondNumber = getRandomInRange(0, 9);
+  const firstNumber = getRandomNumber(0, 9);
+  const secondNumber = getRandomNumber(0, 9);
   const question = `${firstNumber} ${secondNumber}`;
 
   const correctAnswer = String(getDivisor(firstNumber, secondNumber));
